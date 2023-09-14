@@ -29,6 +29,12 @@ declare namespace electronServe {
 		@default electron.session.defaultSession
 		*/
 		partition?: string;
+
+		/**
+		The hostname the protocol should be displayed,
+		@default 'localhost'
+		 */
+		hostname?: string;
 	}
 
 	/**
